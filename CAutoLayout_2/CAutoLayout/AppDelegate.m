@@ -18,6 +18,7 @@
     
     //[self.window setTranslatesAutoresizingMaskIntoConstraints:NO];
     
+    // root controller
     self.window.rootViewController = [[CViewController alloc] init];
     [self.window makeKeyAndVisible];
     

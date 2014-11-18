@@ -29,22 +29,6 @@
 {
     [super viewDidLoad];
     
-//    
-//    self.btn1.translatesAutoresizingMaskIntoConstraints = NO;
-//    
-//    NSLayoutConstraint *center = [NSLayoutConstraint constraintWithItem: self.btn1
-//                                                              attribute: NSLayoutAttributeCenterX
-//                                                              relatedBy: NSLayoutRelationEqual
-//                                                                 toItem: self.view
-//                                                              attribute: NSLayoutAttributeCenterX
-//                                                             multiplier: 1.0f
-//                                                               constant: 0.0f
-//                                  ];
-//    
-//
-//    
-//    [self.view addConstraints:@[center]];
-    
     
     self.v1 = [[UIView alloc] initWithFrame:CGRectMake(50, 10, 12, 12)];
     self.v1.backgroundColor = [UIColor redColor];
